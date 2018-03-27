@@ -1,0 +1,192 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Store</title>
+    <link rel="stylesheet" href="css/foundation.min.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="foundation-icons/foundation-icons.css">
+  </head>
+  <body>
+    <div class="row">
+      <div class="small-12 columns cabecera small-order-1">
+        <div class="row align-center">
+          <div class="medium-2 column">
+            <img src="img/logo.png" alt="logo">
+          </div>
+          <div class="medium-5 small-offset-5 column">
+            <div class="row">
+              <ul class="menu align-center hide-for-small-only">
+                <li><a href="#">Ingresa</a></li>
+                <li><a href="#">Regístrate</a></li>
+                <li><a href="#">Ayuda</a></li>
+                <li><a href="#">Mapa del sitio</a></li>
+              </ul>
+            </div>
+            <div class="row">
+              <div class="column medium-offset-4 medium-8 hide-for-small-only">
+                <ul class="menu align-center">
+                  <li><a href="#"><i class="step fi-social-facebook size-72"></i></a></li>
+                  <li><a href="#"><i class="step fi-social-instagram size-72"></i></a></li>
+                  <li><a href="#"><i class="step fi-social-twitter size-72"></i></a></li>
+                  <li><a href="#"><i class="step fi-social-youtube size-72"></i></a></li>
+                  <li><a href="#"><i class="step fi-social-pinterest size-72"></i></a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="small-12 columns small-order-4 medium-order-2">
+        <div class="column row">
+          <div class="button-group expanded stacked-for-small">
+            <a href="#" class="button menu-buttons">Hogar</a>
+            <a href="#" class="button menu-buttons">Salud</a>
+            <a href="#" class="button menu-buttons">Deporte</a>
+            <a href="#" class="button menu-buttons">Tecnología</a>
+            <a href="#" class="button menu-buttons">Accesorios</a>
+            <a href="#" class="button menu-buttons">Ropa</a>
+            <a href="#" class="button menu-buttons">Mantenimiento</a>
+            <a href="#" class="hollow button secondary">Carrito <i class="step fi-shopping-cart"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="small-12 columns small-order-2">
+        <div class="column row">
+          <ul class="breadcrumbs" aria-hidden="true">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Hogar</a></li>
+            <li><a href="#">Varios</a></li>
+            <li>Decoración</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="row small-order-3">
+        <div class="column large-3 medium-4 show-for-medium">
+          <div class="callout">
+            <h5>Búsqueda Avanzada</h5>
+            <p class="show-for-sr">
+              A continuación hay un formulario para hacer búsquedas avanzadas.
+            </p>
+            <form>
+              <div class="row column">
+                <label>Por nombre:
+                  <input type="text" name="name">
+                </label>
+              </div>
+              <div class="row column">
+                <label>Por referencia:
+                  <input type="text" name="name" aria-describedby="referencia-help">
+                </label>
+                <p class="help-text" id="referencia-help">Número único del producto</p>
+              </div>
+              <div class="row column">
+                <label>Por categoría:
+                  <select>
+                    <option>Hogar</option>
+                    <option>Salud</option>
+                    <option>Deporte</option>
+                    <option>Tecnología</option>
+                    <option>Accesorios</option>
+                    <option>Ropa</option>
+                    <option>Mantenimiento</option>
+                  </select>
+                </label>
+              </div>
+              <div class="row column">
+                <fieldset>
+                  <legend>Tipo de producto:</legend>
+                  <input id="nuevo-check" type="checkbox"><label for="checkbox1">Nuevo</label>
+                  <input id="usado-check" type="checkbox"><label for="checkbox2">Usado</label>
+                </fieldset>
+              </div>
+              <div class="row column">
+                <fieldset>
+                  <legend>Tipo de precio:</legend>
+                  <input type="radio" name="tipo-precio" value="Red" id="pleno"><label for="pleno">Pleno</label>
+                  <input type="radio" name="tipo-precio" value="Blue" id="en_oferta"><label for="en_oferta">En oferta</label>
+                </fieldset>
+              </div>
+              <div class="row column text-center">
+                <label>¿Buscar productos agotados?</label>
+                <div class="switch medium">
+                  <input class="switch-input" id="agotados-switch" type="checkbox">
+                  <label class="switch-paddle" for="agotados-switch">
+                    <span class="switch-active" aria-hidden="true">Si</span>
+                    <span class="switch-inactive" aria-hidden="true">No</span>
+                  </label>
+                </div>
+              </div>
+              <div class="row column text-center">
+                <hr>
+                <button type="submit" name="enviar" class="button menu-buttons">Buscar <i class="step fi-magnifying-glass"></i></button>
+              </div>
+            </form>
+          </div>
+        </div>
+        <div class="column large-9">
+          <div class="callout">
+            <h4>Decoración</h4>
+            <hr>
+            <div class="row">
+              <div class="column large-4 small-12 medium-6">
+                <div class="callout text-center">
+                  <img src="img/logo.png" alt="logo" class="thumbnail">
+                  <h5>Decoración 1</h5>
+                  <a href="#">Ver mas <i class="step fi-plus size-72"></i></a>
+                </div>
+              </div>
+              <div class="column large-4 small-12 medium-6">
+                <div class="callout text-center">
+                  <img src="img/logo.png" alt="logo" class="thumbnail">
+                  <h5>Decoración 1</h5>
+                  <a href="#">Ver mas <i class="step fi-plus size-72"></i></a>
+                </div>
+              </div>
+              <div class="column large-4 small-12 medium-12">
+                <div class="callout text-center">
+                  <img src="img/logo.png" alt="logo" class="thumbnail">
+                  <h5>Decoración 1</h5>
+                  <a href="#">Ver mas <i class="step fi-plus size-72"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="column large-4 small-12 medium-6">
+                <div class="callout text-center">
+                  <img src="img/logo.png" alt="logo" class="thumbnail">
+                  <h5>Decoración 1</h5>
+                  <a href="#">Ver mas <i class="step fi-plus size-72"></i></a>
+                </div>
+              </div>
+              <div class="column large-4 small-12 medium-6">
+                <div class="callout text-center">
+                  <img src="img/logo.png" alt="logo" class="thumbnail">
+                  <h5>Decoración 1</h5>
+                  <a href="#">Ver mas <i class="step fi-plus size-72"></i></a>
+                </div>
+              </div>
+              <div class="column large-4 small-12 medium-12">
+                <div class="callout text-center">
+                  <img src="img/logo.png" alt="logo" class="thumbnail">
+                  <h5>Decoración 1</h5>
+                  <a href="#">Ver mas <i class="step fi-plus size-72"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,7 @@
+2b7a78 Primary
+3aafa9 Secondary
+DD2C00 Alert
+00B8D4 Success
+F44336 Warning
+E8EDF3 Body
+015249 Header

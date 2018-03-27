@@ -1,0 +1,29 @@
+header{
+  margin-top: 10px;
+}
+
+.menu-iconos{
+  padding: 4px;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+
+ul li a{
+  color: #2B7A78 !important;
+}
+
+.no-padding{
+  padding: 0px;
+}
+
+.menu-buttons{
+  background: #2B7A78;
+}
+
+.margin-pequeño{
+  margin-left: 7px !important;
+  margin-right: 7px !important;
+}
+.no-margin{
+  margin: 0px;
+}
