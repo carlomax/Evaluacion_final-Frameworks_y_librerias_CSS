@@ -59,10 +59,20 @@
 .contenido{
   background-color: white;
   margin-top: 20px;
+  padding-bottom: 20px;
+}
+
+.comentario{
+  margin: 20px 0px 20px 0px;
 }
 
 .foto-banda{
-  margin-top: 40px;
+  margin-top: 20px;
+  padding: 0px;
+}
+
+.foto-usuario{
+  padding: 0px 5px 0px 0px;
 }
 
 .no-margin-bottom{
