@@ -75,6 +75,14 @@
   padding: 0px 5px 0px 0px;
 }
 
+.segmento-busqueda{
+  padding: 20px 40px 0px 10px;
+}
+
+.opciones-list-busqueda{
+  margin-top: 30px;
+}
+
 .no-margin-bottom{
   margin-bottom: 0px;
 }
@@ -83,136 +91,17 @@
   padding-bottom: 0px;
 }
 
-.jumbotron{
-  background: url(../img/pic1.png) no-repeat;
-  background-position: center center;
-  background-size: cover;
-  min-height: 500px;
-  margin-bottom: 0px;
-  border-radius: 0px 0px 0px 0px !important;
-}
+@media (max-width:992px) {
 
-.wellcome-tittle{
-  color: white;
-  margin-left: 20px;
-}
-
-.jumbotron-img{
-  margin-top: 20px;
-  width: 400px;
-}
-
-.jumbotron-text{
-  font-size: 16px;
-  color: white;
-  margin-top: 30px;
-}
-
-.redes-sociales{
-  margin-top: 20px;
-}
-
-.titulo-cartelera{
-  background: hsla(170, 100%, 15%, 0.95);
-  min-height: 35px;
-}
-
-.movies-row{
-  background: hsla(0, 0%, 0%, 0.6);
-  min-height: 380px;
-  padding-right: 15px;
-  padding-left: 15px;
-}
-
-.movies-row-last {
-  background: hsla(0, 0%, 0%, 0.6);
-  min-height: 425px;
-  padding-left: 15px;
-  padding-right: 15px;
-}
-
-.movies-column{
-  margin-top: 5px;
-  min-height: 330px;
-  border: dashed 1px #FFFFFF;
-}
-
-.movie-title{
-  color: white;
-}
-
-.img-movies{
-  height: 260px;
-  padding: 6px;
-  margin-top: 22px;
-}
-
-.service-text{
-  color: white;
-  margin-top: 20px;
-}
-
-@media (max-width:770px) {
-  .right-column{
-    display: none;
+  .menu-social{
+    text-align: center;
   }
-  .movies-row{
-    min-height: 250px;
-  }
-  .movies-column{
-    min-height: 230px;
-  }
-  .jumbotron{
-    min-height: 400px;
-  }
-  .jumbotron-img{
-    width: 150px;
-    margin-top: 20px;
-  }
-  h2{
-    font-size: 22px;
-  }
-  .titulo-text{
-    font-size: 15px;
-  }
-  .img-movies{
-    height: 133px;
-    padding: 6px;
-    margin-top: 22px;
-  }
-  .container-fluid{
-    margin-top: 60px;
-  }
+
 }
 
-.left-column{
-  border-right: dashed 1px #FFFFFF;
-}
+@media (max-width:768px) {
+  textarea{
+    height: 70px;
+  }
 
-.user-data{
-  font-size: 18px;
-  color: white;
-  margin-top: 10px;
-}
-
-.input-element{
-  background: hsla(0, 100%, 100%, 0.4);
-  width: 100%;
-  height: 28px;
-  padding: 10px;
-  margin-top: 5px;
-  color: white;
-  border-radius: 4px;
-}
-
-.label-class{
-  color: white;
-  font-size: 13px;
-  margin-right: 10px;
-}
-
-.btn-save{
-  width: 40%;
-  background: hsla(170, 100%, 15%, 0.95);
-  color: white;
 }
