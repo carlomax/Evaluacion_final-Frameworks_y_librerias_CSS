@@ -4,185 +4,186 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Store</title>
+    <title>CocinArt</title>
     <link rel="stylesheet" href="css/foundation.min.css">
     <link rel="stylesheet" href="css/app.css">
     <link rel="stylesheet" href="foundation-icons/foundation-icons.css">
   </head>
   <body>
-    <div class="row">
-      <div class="small-12 columns cabecera small-order-1">
-        <div class="row align-center">
-          <div class="medium-2 column">
-            <img src="img/logo.png" alt="logo">
-          </div>
-          <div class="medium-5 small-offset-5 column">
-            <div class="row">
-              <ul class="menu align-center hide-for-small-only">
-                <li><a href="#">Ingresa</a></li>
-                <li><a href="#">Regístrate</a></li>
-                <li><a href="#">Ayuda</a></li>
-                <li><a href="#">Mapa del sitio</a></li>
-              </ul>
+    <div class="row contenedor">
+
+      <div class="small-12 column cabecera hide-for-small-only">
+        <div class="row">
+          <div class="small-4 column seg-titulo">
+            <div class="column small-12">
+              <h2 class="text-right">CocinArt</h2>
             </div>
-            <div class="row">
-              <div class="column medium-offset-4 medium-8 hide-for-small-only">
-                <ul class="menu align-center">
-                  <li><a href="#"><i class="step fi-social-facebook size-72"></i></a></li>
-                  <li><a href="#"><i class="step fi-social-instagram size-72"></i></a></li>
-                  <li><a href="#"><i class="step fi-social-twitter size-72"></i></a></li>
-                  <li><a href="#"><i class="step fi-social-youtube size-72"></i></a></li>
-                  <li><a href="#"><i class="step fi-social-pinterest size-72"></i></a></li>
+            <div class="column small-12 ">
+              <h5 class="text-right">Secretos del arte de cocinar</h5>
+            </div>
+          </div>
+          <div class="small-8 columns ">
+
+          </div>
+        </div>
+      </div>
+
+      <div class="small-12 column">
+        <div class="row">
+          <div class="small-4 column seg-contenido hide-for-small-only">
+            <div class="callout columnas-contenido">
+              <div class="column small-12">
+                <div class="input-group">
+                  <input type="text" placeholder="Buscar por..."/>
+                  <div class="input-group-button">
+                    <button class="button primary" type="submit">
+                      <span class="glyphicon glyphicon-searchstep fi-magnifying-glass"></span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+              <div class="column small-12">
+                <ul class="vertical menu">
+                  <li><a class="hollow button nav-button" href="#">Inicio</a></li>
+                  <li><a class="hollow button nav-button" href="#">Mi plato perfecto</a></li>
+                  <li><a class="hollow button nav-button" href="#">Mis recetas</a></li>
                 </ul>
               </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <div class="small-12 columns small-order-4 medium-order-2">
-        <div class="column row">
-          <div class="button-group expanded stacked-for-small">
-            <a href="#" class="button menu-buttons">Hogar</a>
-            <a href="#" class="button menu-buttons">Salud</a>
-            <a href="#" class="button menu-buttons">Deporte</a>
-            <a href="#" class="button menu-buttons">Tecnología</a>
-            <a href="#" class="button menu-buttons">Accesorios</a>
-            <a href="#" class="button menu-buttons">Ropa</a>
-            <a href="#" class="button menu-buttons">Mantenimiento</a>
-            <a href="#" class="hollow button secondary">Carrito <i class="step fi-shopping-cart"></i></a>
-          </div>
-        </div>
-      </div>
-
-      <div class="small-12 columns small-order-2">
-        <div class="column row">
-          <ul class="breadcrumbs" aria-hidden="true">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Hogar</a></li>
-            <li><a href="#">Varios</a></li>
-            <li>Decoración</li>
-          </ul>
-        </div>
-      </div>
-
-      <div class="row small-order-3">
-        <div class="column large-3 medium-4 show-for-medium">
-          <div class="callout">
-            <h5>Búsqueda Avanzada</h5>
-            <p class="show-for-sr">
-              A continuación hay un formulario para hacer búsquedas avanzadas.
-            </p>
-            <form>
-              <div class="row column">
-                <label>Por nombre:
-                  <input type="text" name="name">
-                </label>
-              </div>
-              <div class="row column">
-                <label>Por referencia:
-                  <input type="text" name="name" aria-describedby="referencia-help">
-                </label>
-                <p class="help-text" id="referencia-help">Número único del producto</p>
-              </div>
-              <div class="row column">
-                <label>Por categoría:
-                  <select>
-                    <option>Hogar</option>
-                    <option>Salud</option>
-                    <option>Deporte</option>
-                    <option>Tecnología</option>
-                    <option>Accesorios</option>
-                    <option>Ropa</option>
-                    <option>Mantenimiento</option>
-                  </select>
-                </label>
-              </div>
-              <div class="row column">
-                <fieldset>
-                  <legend>Tipo de producto:</legend>
-                  <input id="nuevo-check" type="checkbox"><label for="checkbox1">Nuevo</label>
-                  <input id="usado-check" type="checkbox"><label for="checkbox2">Usado</label>
-                </fieldset>
-              </div>
-              <div class="row column">
-                <fieldset>
-                  <legend>Tipo de precio:</legend>
-                  <input type="radio" name="tipo-precio" value="Red" id="pleno"><label for="pleno">Pleno</label>
-                  <input type="radio" name="tipo-precio" value="Blue" id="en_oferta"><label for="en_oferta">En oferta</label>
-                </fieldset>
-              </div>
-              <div class="row column text-center">
-                <label>¿Buscar productos agotados?</label>
-                <div class="switch medium">
-                  <input class="switch-input" id="agotados-switch" type="checkbox">
-                  <label class="switch-paddle" for="agotados-switch">
-                    <span class="switch-active" aria-hidden="true">Si</span>
-                    <span class="switch-inactive" aria-hidden="true">No</span>
-                  </label>
+              <div class="column small-12 seg-favoritos">
+                <h5>Favoritos:</h5>
+                <div class="row">
+                  <div class="column small-4">
+                    <img src="img/img1.jpg" alt="Decoracion 1" class="thumbnail">
+                  </div>
+                  <div class="column small-4">
+                    <img src="img/img2.jpg" alt="Decoracion 1" class="thumbnail">
+                  </div>
+                  <div class="column small-4">
+                    <img src="img/img3.jpeg" alt="Decoracion 1" class="thumbnail">
+                  </div>
+                </div>
+                <div class="row">
+                  <div class="column small-4">
+                    <img src="img/img4.jpg" alt="Decoracion 1" class="thumbnail">
+                  </div>
+                  <div class="column small-4">
+                    <img src="img/img5.jpg" alt="Decoracion 1" class="thumbnail">
+                  </div>
+                  <div class="column small-4">
+                    <img src="img/img6.jpg" alt="Decoracion 1" class="thumbnail">
+                  </div>
                 </div>
               </div>
-              <div class="row column text-center">
-                <hr>
-                <button type="submit" name="enviar" class="button menu-buttons">Buscar <i class="step fi-magnifying-glass"></i></button>
-              </div>
-            </form>
-          </div>
-        </div>
-        <div class="column large-9">
-          <div class="callout">
-            <h4>Decoración</h4>
-            <hr>
-            <div class="row">
-              <div class="column large-4 small-12 medium-6">
-                <div class="callout text-center">
-                  <img src="img/logo.png" alt="logo" class="thumbnail">
-                  <h5>Decoración 1</h5>
-                  <a href="#">Ver mas <i class="step fi-plus size-72"></i></a>
-                </div>
-              </div>
-              <div class="column large-4 small-12 medium-6">
-                <div class="callout text-center">
-                  <img src="img/logo.png" alt="logo" class="thumbnail">
-                  <h5>Decoración 1</h5>
-                  <a href="#">Ver mas <i class="step fi-plus size-72"></i></a>
-                </div>
-              </div>
-              <div class="column large-4 small-12 medium-12">
-                <div class="callout text-center">
-                  <img src="img/logo.png" alt="logo" class="thumbnail">
-                  <h5>Decoración 1</h5>
-                  <a href="#">Ver mas <i class="step fi-plus size-72"></i></a>
+              <div class="column small-12 seg-favoritos">
+                <h5>Historial:</h5>
+                <div class="historial">
+                  <p>Pollo al maracuyá</p>
+                  <p>Arroz con pato</p>
+                  <p>Cheesecake de frutilla</p>
+                  <p>Sushi de Salmón</p>
                 </div>
               </div>
             </div>
-            <div class="row">
-              <div class="column large-4 small-12 medium-6">
-                <div class="callout text-center">
-                  <img src="img/logo.png" alt="logo" class="thumbnail">
-                  <h5>Decoración 1</h5>
-                  <a href="#">Ver mas <i class="step fi-plus size-72"></i></a>
+          </div>
+          <div class="small-12 medium-8 large-8 columns seg-contenido">
+            <div class="callout columnas-contenido column small-12">
+              <h3>Ceviche</h3>
+              <p class="text-fecha">3 de Abril de 2018</p>
+              <div class="column small-12">
+                <img src="img/img1.jpg" alt="Decoracion 1" class="thumbnail">
+              </div>
+              <p>El cebiche, ceviche, sebiche o seviche (según la Real Academia Española, puede ser escrito de estas cuatro formas, dependiendo del lugar) es un plato consistente en carne marinada de pescado, mariscos o ambos en aliños cítricos. Diferentes versiones del cebiche forman parte de la culinaria de diversos países latinoamericanos litorales del océano Pacífico, de donde es nativo, siendo estos Chile, Colombia, Costa Rica, Ecuador, El Salvador, Guatemala, Honduras, México, Nicaragua, Panamá y Perú, en este último se lo considera como patrimonio cultural.</p>
+              <hr>
+              <div class="column small-12">
+                <p>Escríbenos un comentario:</p>
+                <textarea rows="3" id="comentario2" ></textarea>
+                <div class="column small-12 text-right">
+                  <a class="button primary" href="#">Publicar</a>
                 </div>
               </div>
-              <div class="column large-4 small-12 medium-6">
-                <div class="callout text-center">
-                  <img src="img/logo.png" alt="logo" class="thumbnail">
-                  <h5>Decoración 1</h5>
-                  <a href="#">Ver mas <i class="step fi-plus size-72"></i></a>
+              <div class="callout column small-12">
+                <div class="row align-middle">
+                  <div class="column small-2">
+                    <img src="img/ic_mujer.png" alt="icono mujer">
+                  </div>
+                  <div class="column small-10">
+                    <p class="comentarios"><strong> Mariale:</strong> Quien lo diría, cuantas formas de nombrarlo</p>
+                  </div>
                 </div>
               </div>
-              <div class="column large-4 small-12 medium-12">
-                <div class="callout text-center">
-                  <img src="img/logo.png" alt="logo" class="thumbnail">
-                  <h5>Decoración 1</h5>
-                  <a href="#">Ver mas <i class="step fi-plus size-72"></i></a>
+              <div class="callout column small-12">
+                <div class="row align-middle">
+                  <div class="column small-2">
+                    <img src="img/ic_hombre.png" alt="icono hombre">
+                  </div>
+                  <div class="column small-10">
+                    <p class="comentarios"><strong> Eduardo:</strong> Buenazo, manos a la obra</p>
+                  </div>
+                </div>
+              </div>
+              <div class="callout column small-12">
+                <div class="row align-middle">
+                  <div class="column small-2">
+                    <img src="img/ic_mujer.png" alt="icono mujer">
+                  </div>
+                  <div class="column small-10">
+                    <p class="comentarios"><strong> Adriana:</strong> Con tu blog aprendí todo lo que se, buen aporte!</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="callout columnas-contenido column small-12">
+              <h3>Lasagna</h3>
+              <p class="text-fecha">28 de Marzo de 2018</p>
+              <div class="column small-12">
+                <img src="img/img1.jpg" alt="Decoracion 1" class="thumbnail">
+              </div>
+              <p>La lasaña (italiano: lasagna) es un tipo de pasta que se sirve en láminas, además de denominarse así también a un plato que tiene pasta en láminas intercaladas con carne (ragú o salsa boloñesa) y bechamel llamado lasaña al horno (Lasagna al forno). Se trata de un plato de origen griego/italiano. La lasaña al horno también se puede hacer con verduras o pescados. Se termina con bechamel y abundante queso rallado para gratinarla en el horno. Ambos platos tienen como lugar de origen Italia. La palabra "lasaña" proviene del griego "lasanon", a través del latín "lasanum", que se refiere al cazo en el que se cocinaba. La palabra singular en italiano es lasagna y en plural lasagne se aplica indistintamente al plato o a la pasta en forma de láminas. Es una entrada o primer plato caliente que se suele comer en invierno o en los periodos fríos de la primavera.</p>
+              <hr>
+              <div class="column small-12">
+                <p>Escríbenos un comentario:</p>
+                <textarea rows="3" id="comentario2" ></textarea>
+                <div class="column small-12 text-right">
+                  <a class="button primary" href="#">Publicar</a>
+                </div>
+              </div>
+              <div class="callout column small-12">
+                <div class="row align-middle">
+                  <div class="column small-2">
+                    <img src="img/ic_hombre.png" alt="icono hombre">
+                  </div>
+                  <div class="column small-10">
+                    <p class="comentarios"><strong> Ignacio:</strong> Uffff! mi favorito, ya tocaba</p>
+                  </div>
+                </div>
+              </div>
+              <div class="callout column small-12">
+                <div class="row align-middle">
+                  <div class="column small-2">
+                    <img src="img/ic_hombre.png" alt="icono hombre">
+                  </div>
+                  <div class="column small-10">
+                    <p class="comentarios"><strong> Leandro:</strong> Yo la prefiero con al menos 9 tipos de queso</p>
+                  </div>
+                </div>
+              </div>
+              <div class="callout column small-12">
+                <div class="row align-middle">
+                  <div class="column small-2">
+                    <img src="img/ic_mujer.png" alt="icono mujer">
+                  </div>
+                  <div class="column small-10">
+                    <p class="comentarios"><strong> Minerva:</strong> Su preparacion cuesta, pero vale la pena!</p>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
+
     </div>
+
 
     <script src="js/vendor/jquery.js"></script>
     <script src="js/vendor/what-input.js"></script>
