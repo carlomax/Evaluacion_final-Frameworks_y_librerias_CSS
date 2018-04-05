@@ -1,5 +1,105 @@
-.cabecera{
-  min-height: 4rem;
+.cont-color{
+  min-height: 8rem;
+  margin-bottom: 0px;
+}
+
+.cont-imagen{
+  margin-bottom: 0px;
+  background: url(../img/fondo.jpg) no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 36rem;
+}
+
+.contenido-general{
+  background: hsla(220, 23%, 34%, 0.5);
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0%;
+}
+
+.contenido-publicaciones{
+  padding: 0px 20px 0px 20px;
+}
+
+.titulo-publicacion{
+  margin-top: 25px !important;
+}
+
+.comentario{
+  color: white !important;
+}
+
+.input-field input + label, textarea + label{
+  color: white !important;
+}
+
+.row .input-field input, textarea{
+  border-bottom: 1px solid white !important;
+  box-shadow: 0 1px 0 0 white !important;
+}
+
+.input-field input:focus + label{
+   color: white !important;
+ }
+ /* label underline focus color */
+ .row .input-field input:focus {
+   border-bottom: 1px solid white !important;
+   box-shadow: 0 1px 0 0 white !important;
+ }
+
+.padding{
+  padding: 20px;
+}
+
+.fixed{
+  position: fixed;
+  width: 100% !important;
+  height: 100% !important;
+}
+
+.barra-navegacion{
+  margin-top: 1rem;
+}
+
+.btn-navegacion{
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+}
+
+.logo{
+  margin-top: 1rem;
+  float: right;
+}
+
+.img-social{
+  height: 60px;
+  margin-top: 10px;
+  border-radius: 8px;
+}
+
+.img-publicacion{
+  width: 40rem;
+  margin-top: 20px;
+  margin-right: 20px;
+  padding: 0px;
+  border: 0px !important;
+  border-radius: 0px !important;
+  float: left;
+}
+
+.img-perfil{
+  margin-top: 20px;
+  width: 10rem;
+}
+
+.enlace-social{
+  padding-left: 20px;
+}
+
+.slogan{
+  margin-left: 40px;
 }
 
 .no-margin-bottom{
@@ -7,7 +107,15 @@
 }
 
 .no-padding{
-  padding: 0px;
+  padding: 0px !important;
+}
+
+.no-margin{
+  margin: 0px !important;
+}
+
+.cabecera{
+  min-height: 5rem;
 }
 
 .grupos{
@@ -18,11 +126,7 @@
   min-height: 25rem;
 }
 
-.logo{
-  width: 43px;
-  margin-top: 0.5rem;
-  float: left;
-}
+
 
 .contenedor-write-publicacion{
   min-height: 7rem;
@@ -76,8 +180,25 @@
   overflow: scroll;
 }
 
-@media (max-width: 600px) {
-  .columna-grupos{
-    padding: 0 !important;
+@media (min-width: 601px) {
+  .img-publicacion{
+    width: 40rem;
+    margin-top: 20px;
+    margin-right: 20px;
+    padding: 0px;
+    border: 0px !important;
+    border-radius: 0px !important;
+    float: left;
+  }
+}
+@media (min-width: 993px) {
+  .img-publicacion{
+    width: 30rem;
+    margin-top: 20px;
+    margin-right: 20px;
+    padding: 0px;
+    border: 0px !important;
+    border-radius: 0px !important;
+    float: left;
   }
 }
